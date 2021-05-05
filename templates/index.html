@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>examples</title>
+    <link
+      href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    {% block content %}
+    <div class="container">
+      <form action="#" method="post">
+        <label class="py-2">add a space to separate each number</label><br />
+        <input type="text" name="nums" />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    {% endblock %}
+  </body>
+</html>
